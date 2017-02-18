@@ -1,0 +1,38 @@
+{
+  "name": "Weather_forecast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "node ./node_modules/webpack/bin/webpack.js -p",
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --progress --colors --inline --- --port=8082",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.15.3",
+    "lodash": "^4.17.2",
+    "react": "~15.4.1",
+    "react-dom": "~15.4.1",
+    "react-google-maps": "^4.7.1",
+    "react-redux": "^4.4.6",
+    "react-sparklines": "^1.6.0",
+    "redux": "^3.6.0",
+    "redux-promise": "^0.5.3"
+  },
+  "devDependencies": {
+    "babel-core": "~6.18.2",
+    "babel-loader": "~6.2.8",
+    "babel-preset-latest": "~6.16.0",
+    "babel-preset-react": "~6.16.0",
+    "css-loader": "~0.26.0",
+    "extract-text-webpack-plugin": "~1.0.1",
+    "node-sass": "~3.13.0",
+    "react-hot-loader": "~3.0.0-beta.6",
+    "sass-loader": "~4.0.2",
+    "style-loader": "~0.13.1",
+    "webpack": "~1.13.3",
+    "webpack-dev-server": "~1.16.2"
+  },
+  "author": "Marek Melichar",
+  "license": "MIT"
+}
