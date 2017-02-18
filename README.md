@@ -1,8 +1,3 @@
-# react-webpack-babel-kit
-
-Compiles all the scripts & styles from `src` path to `dist`. The kit generates source maps by default in development mode.
-
-##Installation
 
 ```bash
     $ npm install
